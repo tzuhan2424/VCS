@@ -1,11 +1,13 @@
 public class Mouse{
     private boolean full;
+    private String skinColor = "Black";
     Mouse(){
 
     }
     
-    Mouse(boolean full){
+    Mouse(boolean full, String skinColor){
         this.full = full;
+        this.skinColor = skinColor;
     }
 
     public void setFull(boolean full){

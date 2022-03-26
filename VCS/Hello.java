@@ -5,7 +5,7 @@ public class Hello{
     }
     
     public static void status(){
-        System.out.println("status: good");
+        System.out.println("status: good!!");
     }
 
     public String getGreeting(){
