@@ -4,15 +4,18 @@ public class Hello{
 
     }
     
-    public void main(Stirng[] args){
-        System.out.println("Hello");
-    }
-    
     public static void status(){
         System.out.println("status: good");
     }
+
+    public String getGreeting(){
+        return greeting;
+    }
+
+    public static void main(String[] args){
+        Hello hi = new Hello();
+        hi.status;
+        System.out.println(hi.getGreeting());
+    }
 }
 
-public class Thank_you extends Hello{
-    
-}
